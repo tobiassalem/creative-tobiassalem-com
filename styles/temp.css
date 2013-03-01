@@ -1,0 +1,35 @@
+blockquote,q {
+	quotes: none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: none
+}
+
+/* 
+	ORIG ABOVE; NEW BELOW 
+	http://shapeshed.com/journal/quotations_in_css/
+	http://fwebde.com/css/nice-pull-quotes-with-css/
+	http://www.juude.info/css-gigantic-quote-marks.php
+*/
+
+blockquote p
+{
+    padding: 0px 15px 0px 0px;
+    font-size: 1.2em;    
+    float: left;
+    background: url(../images/quote_down.png) bottom right no-repeat;
+}
+
+blockquote {
+    padding: 20px;
+    font-size: 1.8em;    
+    background: url(../images/quote_up.png) top left no-repeat;
+}
+
+cite {
+    font-size: 1.2em;
+    float: right;    
+}
+
+
